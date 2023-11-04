@@ -1,10 +1,8 @@
 import React from 'react'
-import ProductCards from '../Components/Product/ProductCards'
-import ProductContent from '../Components/Product/ProductContent'
 
 function Product() {
   return (
-  <div className="overflow-y-hidden bg-gray-900">
+  <div className="overflow-y-hidden bg-gray-900 ">
     <div className="container px-4 py-24 mx-auto f-f-p xl:px-0">
       <h1 className="text-3xl font-extrabold tracking-wider text-center text-white focus:outline-none lg:text-4xl lg:leading-9">How it works?</h1>
       <div className="md:mt-24 f-f-p">

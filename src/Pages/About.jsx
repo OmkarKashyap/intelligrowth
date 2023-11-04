@@ -1,24 +1,26 @@
 import React from "react";
-
+import GirlUPSC from '../assets/girlupsc.jpg'
+import smallUPSC from '../assets/smallUPSC.jpg'
+import bigboyUPSC from '../assets/bigboyUPSC.jpg'
 const About = () => {
   return (
-    <>
-      <section className="pt-20 lg:pt-[120px] pb-12 lg:pb-[90px] overflow-hidden">
-        <div className="container">
+    <div className="bg-gray-900 text-white">
+      <section className="pt-20 lg:pt-[120px] pb-12 lg:pb-[90px] overflow-hidden ">
+        <div className="container ">
           <div className="flex flex-wrap items-center justify-between -mx-4">
             <div className="w-full px-4 lg:w-6/12">
               <div className="flex items-center -mx-3 sm:-mx-4">
                 <div className="w-full px-3 sm:px-4 xl:w-1/2">
                   <div className="py-3 sm:py-4">
                     <img
-                      src="https://i.ibb.co/gFb3ns6/image-1.jpg"
+                      src={GirlUPSC}
                       alt=""
                       className="w-full rounded-2xl"
                     />
                   </div>
                   <div className="py-3 sm:py-4">
                     <img
-                      src="https://i.ibb.co/rfHFq15/image-2.jpg"
+                      src={smallUPSC}
                       alt=""
                       className="w-full rounded-2xl"
                     />
@@ -27,7 +29,7 @@ const About = () => {
                 <div className="w-full px-3 sm:px-4 xl:w-1/2">
                   <div className="relative z-10 my-4">
                     <img
-                      src="https://i.ibb.co/9y7nYCD/image-3.jpg"
+                      src={bigboyUPSC}
                       alt=""
                       className="w-full rounded-2xl"
                     />
@@ -611,16 +613,14 @@ const About = () => {
                   Why Choose Us
                 </span>
                 <h2 className="mb-8 text-3xl font-bold text-dark sm:text-4xl">
-                  Make your customers happy by giving services.
+                  <span className="text-orange-400">Our</span> vision <span className="text-green-400">here</span> 
                 </h2>
                 <p className="mb-8 text-base text-body-color">
-                  It is a long established fact that a reader will be distracted
-                  by the readable content of a page when looking at its layout.
-                  The point of using Lorem Ipsum is that it has a more-or-less.
+                At Intelligrowth, we envision a future where every student with a dream of serving the nation through the civil services can access the best resources and support to excel in their UPSC journey.
                 </p>
                 <a
-                  href="/#"
-                  className="inline-flex items-center justify-center px-10 py-4 text-base font-normal text-center text-white rounded-lg bg-primary hover:bg-opacity-90 lg:px-8 xl:px-10"
+                  href="https://intelligrowth.vercel.app/"
+                  className="inline-flex items-center justify-center px-10 py-4 text-base font-normal text-center bg-gradient-to-r from-orange-400 to-green-400 text-blue-900 rounded-lg bg-primary hover:bg-opacity-90 lg:px-8 xl:px-10"
                 >
                   Get Started
                 </a>
@@ -629,7 +629,7 @@ const About = () => {
           </div>
         </div>
       </section>
-    </>
+    </div>
   );
 };
 

@@ -3,6 +3,11 @@ import React from 'react'
 function Features() {
   return (
     <div className='flex flex-col gap-4 bg-black'>
+        <div class="flex justify-center items-center h-0 pt-10 pb-10">
+    <div class="h-2 w-2 rounded-full bg-orange-500 mx-2"></div>
+    <div class="h-2 w-2 rounded-full bg-white mx-2"></div>
+    <div class="h-2 w-2 rounded-full bg-green-500 mx-2"></div>
+</div>
         <div className='flex flex-col gap-2'>
             <div className='flex justify-center mb-4 text-4xl font-semibold text-white align-middle font-Poppins'>
                 What makes us different?
@@ -58,6 +63,13 @@ function Features() {
             </div>
 
         </div>
+        <div class="flex justify-center items-center h-0 pt-5">
+    <div class="h-2 w-2 rounded-full bg-orange-500 mx-2"></div>
+    <div class="h-2 w-2 rounded-full bg-white mx-2"></div>
+    <div class="h-2 w-2 rounded-full bg-green-500 mx-2"></div>
+</div>
+
+
     </div>
   )
 }

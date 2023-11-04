@@ -3,7 +3,7 @@ import {Link} from "react-router-dom"
 import TransactionsViewHome from "../assets/topicview.jpg"
 function TopicView() {
   return (
-    <div className='grid h-screen grid-cols-2 text-white bg-black'>
+    <div className='grid h-screen grid-cols-2 text-white bg-black mt-0'>
         <div>
             <img src={TransactionsViewHome} className='object-contain p-20 pt-30 rounded-full mt-20 ml-10' />
         </div>
@@ -16,6 +16,8 @@ function TopicView() {
                 <button className='py-3 text-xs font-bold tracking-wide rounded-full font-Poppins bg-gradient-to-r from-orange-400 to-green-400 px-7 text-blue-900 hover:scale-110 duration 300'><Link to="/register">Read More {">"}</Link></button>
             </div>
         </div>
+        
+
     </div>
   )
 }

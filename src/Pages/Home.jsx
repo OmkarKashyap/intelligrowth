@@ -27,6 +27,7 @@ function Home() {
               <img src={Expense} className='rounded-full w-30 h-30 object-cover mt-20 mb-20 z-30' />
           </div>
       </div>
+      
       <div className='bg-black'>
         <Features />
         <TopicView />
