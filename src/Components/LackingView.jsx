@@ -1,10 +1,10 @@
 import React from 'react'
 import {Link} from "react-router-dom"
-import InvoicesHome from "../assets/InvoiceHome.jpg"
-function TransactionRecord() {
+import InvoicesHome from "../assets/lackingview.jpg"
+function LackingView() {
   return (
     <div className='grid h-screen grid-cols-2 text-white bg-black'>
-        <div>
+        <div className='mt-20'>
             <img src={InvoicesHome} className='object-contain p-20 rounded-full' />
         </div>
         <div>
@@ -20,4 +20,4 @@ function TransactionRecord() {
   )
 }
 
-export default TransactionRecord
+export default LackingView

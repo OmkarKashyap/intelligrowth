@@ -4,7 +4,7 @@ function FAQ() {
   return (
     <div>
         <div>
-                <div className="relative flex items-center justify-center py-16 m-10 bg-gradient-to-r rounded-lg from-green-400 to-orange-400">
+                {/* <div className="relative flex items-center justify-center py-16 m-10 bg-gradient-to-r rounded-lg from-green-400 to-orange-400">
                     <div>
                         <h1 className="text-3xl font-bold leading-10 text-white sm:text-4xl lg:text-5xl">How can we help you?</h1>
                         <div className="relative flex items-center w-full py-4 pl-4 mt-6 bg-blue-500 rounded lg:mt-14">
@@ -18,9 +18,9 @@ function FAQ() {
                             <input type="text" placeholder="Search for answers" className="w-full ml-4 text-base leading-none text-white placeholder-white bg-transparent focus:outline-none" />
                         </div>
                     </div>
-                </div>
+                </div> */}
                 <div className="container flex flex-col items-center justify-center mx-auto py-9">
-                    <div role="list" className="grid w-11/12 grid-cols-1 gap-6 md:w-2/3 md:grid-cols-2">
+                    {/* <div role="list" className="grid w-11/12 grid-cols-1 gap-6 md:w-2/3 md:grid-cols-2">
                         <div role="listitem" className="focus:outline-none">
                             <a href="javascript:void(0)" className="flex items-center p-4 bg-white shadow-md cursor-pointer focus:outline-none lg:p-8">
                                 <div className="flex">
@@ -133,10 +133,10 @@ function FAQ() {
                                 </div>
                             </a>
                         </div>
-                    </div>
-                    <div className="mt-9 md:mt-11 lg:mt-16">
+                    </div> */}
+                    <div className="mt-9 mb-10 md:mt-11 lg:mt-16">
                         <div className="text-center">
-                            <h1 className="text-3xl font-medium leading-loose text-white">Didn’t find an answer?</h1>
+                            <h1 className="text-3xl font-medium leading-loose text-white">The Team</h1>
                             <p className="mx-4 mt-4 mb-8 text-base leading-none text-gray-500 md:mx-0">Our team is just an email away and ready to answer your questions</p>
                         </div>
                         <div role="list" aria-label="Our Team mates" className="flex flex-wrap items-center justify-around mt-2 ">

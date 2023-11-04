@@ -4,9 +4,9 @@ import Expense from "../assets/home2.jpg"
 import {Link} from "react-router-dom"
 import Features from '../Components/Features'
 import TopicView from '../Components/TopicView'
-import ExpenseView from '../Components/ExpenseView'
-import TransactionRecord from '../Components/TransactionRecord'
+import LackingView from '../Components/LackingView'
 import FAQ from '../Components/FAQ'
+import PersonalisedView from '../Components/PersonalisedView'
 
 function Home() {
   return (
@@ -28,13 +28,10 @@ function Home() {
           </div>
       </div>
       <div className='bg-black'>
-        {/* <Stats />
-        <Marquee /> */}
         <Features />
         <TopicView />
-        <ExpenseView />
-        <TransactionRecord />
-        {/* <Testimonials /> */}
+        <PersonalisedView />
+        <LackingView />
         <FAQ />
       </div>
     </div>

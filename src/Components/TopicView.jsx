@@ -1,11 +1,11 @@
 import React from 'react'
 import {Link} from "react-router-dom"
-import TransactionsViewHome from "../assets/TransactionsViewHome.jpg"
+import TransactionsViewHome from "../assets/topicview.jpg"
 function TopicView() {
   return (
     <div className='grid h-screen grid-cols-2 text-white bg-black'>
         <div>
-            <img src={TransactionsViewHome} className='object-contain p-20 rounded-full' />
+            <img src={TransactionsViewHome} className='object-contain p-20 pt-30 rounded-full mt-20 ml-10' />
         </div>
         <div>
             <div className='mt-48 ml-10 '>

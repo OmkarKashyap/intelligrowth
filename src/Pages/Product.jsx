@@ -67,8 +67,6 @@ function Product() {
         </div>
       </div>
     </div>
-    <ProductCards />
-    <ProductContent />
 
   </div>
   )

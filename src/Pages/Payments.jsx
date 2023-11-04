@@ -88,7 +88,7 @@ function Payments() {
 
       {/* Second Card */}
       <div>        
-        <div className="p-4 bg-indigo-500 shadow-lg w-72 rounded-2xl dark:bg-indigo-800">
+        <div className="p-4 bg-green-400 shadow-lg w-72 rounded-2xl dark:bg-green-500">
             <div class="flex items-center justify-between text-white">
                 <p class="mb-4 text-4xl font-medium">
                     Pro
