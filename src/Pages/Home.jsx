@@ -26,6 +26,7 @@ function Home() {
               </div>
           </div>
           <div className='flex-1 ml-10'>
+            <a href='http://huggingface.co/spaces/ysharma/Explore_llamav2_with_tgi'>
               <img src={Expense} className='z-30 object-cover mt-20 rounded-full w-30 h-30' />
               <div class="flex justify-end items-center h-0 text-white mr-10 mt-20 ">
                 <div><img src={Chatbot} className='p-1 transition duration-100 bg-white rounded-full w-14 h-14 hover:bg-green-400' /></div>
@@ -33,6 +34,7 @@ function Home() {
               <div className="flex justify-end mr-1 text-center text-white mt-7 ">
                 Ask Me Anything
               </div>
+              </a>
           </div>
           
       </div>
