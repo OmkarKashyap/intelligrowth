@@ -21,7 +21,7 @@ function Home() {
               <div className='absolute py-12 left-20'>
                   <h1 className='font-Poppins font-bold text-5xl leading-[72px] '><span className='text-orange-400'>Personalised</span> <br /> learning platform <br />for <span className='text-green-400'>UPSC aspirants</span></h1>
                   <h3 className='pb-5 text-lg leading-relaxed text-gray-400'>Offers customized study materials, practice tests, and guidance  <br />based on each aspirant's strengths, weaknesses, and progress</h3>
-                  <Link to="/register"><button className='px-10 py-4 text-xs font-bold tracking-wide text-blue-900 rounded-full bg-gradient-to-r from-orange-400 to-green-400 w-100 hover:scale-110 duration 300'>TRY IT OUT</button></Link>
+                  <Link to="/http://localhost:3000"><button className='px-10 py-4 text-xs font-bold tracking-wide text-blue-900 rounded-full bg-gradient-to-r from-orange-400 to-green-400 w-100 hover:scale-110 duration 300'>TRY IT OUT</button></Link>
   
               </div>
           </div>
