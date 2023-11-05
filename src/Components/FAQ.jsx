@@ -4,7 +4,12 @@ function FAQ() {
   return (
     <div>
         <div>
-                {/* <div className="relative flex items-center justify-center py-16 m-10 bg-gradient-to-r rounded-lg from-green-400 to-orange-400">
+        <div class="flex justify-center items-center h-0">
+    <div class="h-2 w-2 rounded-full bg-orange-500 mx-2"></div>
+    <div class="h-2 w-2 rounded-full bg-white mx-2"></div>
+    <div class="h-2 w-2 rounded-full bg-green-500 mx-2"></div>
+</div>
+                {/* <div className="relative flex items-center justify-center py-16 m-10 rounded-lg bg-gradient-to-r from-green-400 to-orange-400">
                     <div>
                         <h1 className="text-3xl font-bold leading-10 text-white sm:text-4xl lg:text-5xl">How can we help you?</h1>
                         <div className="relative flex items-center w-full py-4 pl-4 mt-6 bg-blue-500 rounded lg:mt-14">
@@ -134,7 +139,7 @@ function FAQ() {
                             </a>
                         </div>
                     </div> */}
-                    <div className="mt-9 mb-10 md:mt-11 lg:mt-16">
+                    <div className="mb-10 mt-9 md:mt-11 lg:mt-16">
                         <div className="text-center">
                             <h1 className="text-3xl font-medium leading-loose text-white">The Team</h1>
                             <p className="mx-4 mt-4 mb-8 text-base leading-none text-gray-500 md:mx-0">Our team is just an email away and ready to answer your questions</p>

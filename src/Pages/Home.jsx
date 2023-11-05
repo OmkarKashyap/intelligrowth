@@ -7,6 +7,7 @@ import TopicView from '../Components/TopicView'
 import LackingView from '../Components/LackingView'
 import FAQ from '../Components/FAQ'
 import PersonalisedView from '../Components/PersonalisedView'
+import Chatbot from '../assets/robot.png'
 
 function Home() {
   return (
@@ -21,12 +22,23 @@ function Home() {
                   <h1 className='font-Poppins font-bold text-5xl leading-[72px] '><span className='text-orange-400'>Personalised</span> <br /> learning platform <br />for <span className='text-green-400'>UPSC aspirants</span></h1>
                   <h3 className='pb-5 text-lg leading-relaxed text-gray-400'>Offers customized study materials, practice tests, and guidance  <br />based on each aspirant's strengths, weaknesses, and progress</h3>
                   <Link to="/register"><button className='px-10 py-4 text-xs font-bold tracking-wide text-blue-900 rounded-full bg-gradient-to-r from-orange-400 to-green-400 w-100 hover:scale-110 duration 300'>TRY IT OUT</button></Link>
+  
               </div>
           </div>
           <div className='flex-1 ml-10'>
-              <img src={Expense} className='z-30 object-cover mt-20 mb-20 rounded-full w-30 h-30' />
+              <img src={Expense} className='z-30 object-cover mt-20 rounded-full w-30 h-30' />
+              <div class="flex justify-end items-center h-0 text-white mr-10 mt-20 ">
+                <div><img src={Chatbot} className='p-1 transition duration-100 bg-white rounded-full w-14 h-14 hover:bg-green-400' /></div>
+              </div>
+              <div className="flex justify-end mr-1 text-center text-white mt-7 ">
+                Ask Me Anything
+              </div>
           </div>
+          
       </div>
+          
+      
+
       
       <div className='bg-black'>
         <Features />
