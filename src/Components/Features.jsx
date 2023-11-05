@@ -12,9 +12,9 @@ function Features() {
             <div className='flex justify-center mb-4 text-4xl font-semibold text-white align-middle font-Poppins'>
                 What makes us different?
             </div>
-            <div className='flex justify-center text-gray-500 align-middle font-Poppins'>
+            {/* <div className='flex justify-center text-gray-500 align-middle font-Poppins'>
                 Our niche is to help you manage your finances so that you are in control of your money.
-            </div>
+            </div> */}
         </div>
         <div className='grid grid-cols-4 m-10'>
             <div className=''>

@@ -167,7 +167,7 @@ function FAQ() {
                             </div>
                         </div>
                         <div className="flex items-center justify-center">
-                            <button className="py-3 mt-4 text-xs font-semibold text-center text-white rounded-full px-7 font-Poppins bg-gradient-to-r from-blue-500 to-green-500 md:mt-6 hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-800">Contact us</button>
+                            <button className="py-3 mt-4 text-xs font-semibold text-center rounded-full bg-gradient-to-r from-orange-400 to-green-400 text-blue-900text-white px-7 font-Poppins md:mt-6 hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-800">Contact us</button>
                         </div>
                     </div>
                 </div>
