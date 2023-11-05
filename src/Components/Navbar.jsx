@@ -34,14 +34,14 @@ function Navbar() {
             <Link to="/"><span className='text-3xl font-bold '> <span className='text-orange-400'>Int</span><span className='text-white'>elli</span><span className='text-green-400'>growth</span></span></Link>
             <ul className='flex items-center text-sm tracking-wide gap-x-8'>
                 <li className='py-1 duration-300 hover:scale-125'><a className="text-gray-300 cursor-pointer text-md hover:text-green-500"><Link to="/">Home</Link></a></li>
-                <li className='py-1 duration-300 hover:scale-125'><a className="text-gray-300 cursor-pointer text-md hover:text-green-500"><Link to="https://intelligrowth.vercel.app">Try it out</Link></a></li>
+                <li className='py-1 duration-300 hover:scale-125'><a className="text-gray-300 cursor-pointer text-md hover:text-green-500"><Link to="http://localhost:3000">Try it out</Link></a></li>
                 <li className='py-1 duration-300 hover:scale-125'><a className="text-gray-300 cursor-pointer text-md hover:text-green-500"><Link to="/product">How it works</Link></a></li>
                 <li className='py-1 duration-300 hover:scale-125'><a className="text-gray-300 cursor-pointer text-md hover:text-green-500"><Link to="/about">About Us</Link></a></li>
             </ul>
             {!cookies.access_token ? (
             <div>
                 <button className='py-3 text-xs tracking-wide bg-black rounded-full p-7 '><Link to="/login">Login</Link></button>
-                <button className='text-blue-900 py-3 text-xs font-bold tracking-wide rounded-full font-Poppins bg-gradient-to-r from-orange-400 to-green-400 px-7 hover:scale-110 duration 300'><Link to="/register">Sign Up</Link></button>
+                <button className='py-3 text-xs font-bold tracking-wide text-blue-900 rounded-full font-Poppins bg-gradient-to-r from-orange-400 to-green-400 px-7 hover:scale-110 duration 300'><Link to="/register">Sign Up</Link></button>
                 
             </div>
             ) : (
