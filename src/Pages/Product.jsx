@@ -16,7 +16,7 @@ function Product() {
             </div>
             <div className="flex flex-col items-center mt-12 lg:items-end md:w-8/12">
               <h1 className="text-xl font-bold leading-5 text-white focus:outline-none">Answer generated questions</h1>
-              <h2 className="pl-3 mt-3 text-base leading-6 tracking-wide text-center text-gray-500 focus:outline-none md:text-right">Create a wallet by linking a payment method that you’re comfortable with. Paypal, Visa and more </h2>
+              <h2 className="pl-3 mt-3 text-base leading-6 tracking-wide text-center text-gray-500 focus:outline-none md:text-right">Answer generated questions and the model rates you on how accurate they are. </h2>
             </div>
             <div aria-label="transactions" role="img">
               <img className="mt-24 focus:outline-none" src="https://tuk-cdn.s3.amazonaws.com/can-uploader/3_step_center_aligned_how_it_worksSvg3.svg" alt />
